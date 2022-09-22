@@ -5,10 +5,5 @@
 - Getting free images: [pixabay](https://pixabay.com/)
 
 ## Next step
-- Redoing clients sections, and add byebnk in there
-- Redoing values section
-    - Lean product and services development
-    - Quality on delivered services
-    - Aggregating value to your business
-- Add descriptions on my services
+- configuring colorscheme
 - Add my photo

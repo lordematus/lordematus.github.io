@@ -1,0 +1,14 @@
+<!doctype html>
+<html data-theme="light">
+<head>
+  {{ partial "meta.html" . }}
+</head>
+<body>
+  <main class="container">
+    {{ partial "nav.html" }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer.html" }}
+  </main>
+</body>
+</html>

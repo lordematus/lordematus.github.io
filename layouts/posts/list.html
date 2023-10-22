@@ -1,10 +1,11 @@
 {{ define "main" }}
-  <h4>My posts</h4>
-  <ul>
+  {{ .Content }}
+  <ol>
     {{ range .Pages }}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+        <small>{{ .Date.Format "January 2, 2006" }}</small>
       </li>
     {{ end }}
-  </ul>
+  </ol>
 {{ end }}

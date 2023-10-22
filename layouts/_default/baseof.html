@@ -1,14 +1,52 @@
 <!doctype html>
-<html data-theme="light">
-<head>
-  {{ partial "meta.html" . }}
-</head>
-<body>
-  <main class="container">
-    {{ partial "nav.html" }}
-    {{ block "main" . }}
-    {{ end }}
-    {{ partial "footer.html" }}
-  </main>
-</body>
+<html data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css">
+    <title>Lordematus | {{ .Page.Title }}</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <hgroup>
+        <h1>Lordematus</h1>
+        <h2>Desenvolvedor de software</h2>
+      </hgroup>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Posts</a></li>
+          <li><a href="/about/">Sobre</a></li>
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox">Language</summary>
+              <ul role="listbox">
+                <li><a href="#">Português</a></li>
+                <li><a href="#">English</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- content -->
+    <main style="padding-top: 0; padding-bottom: 0;">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <hr>
+      <small>
+        <a href="https://github.com/lordematus" target="_blank">Github</a> •
+        <a href="https://instagram.com/lordematus" target="_blank">Instagram</a> •
+        <a href="https://www.linkedin.com/in/mateus-silva-240a6a1b4/" target="_blank">Linkedin</a><br>
+        &copy 2023 - Mateus Silva
+      </small>
+    </footer>
+
+  </body>
 </html>

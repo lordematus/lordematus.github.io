@@ -1,5 +1,5 @@
 ---
-title: Optimization for joy
+title: Otimizar por diversão
 date: 2023-09-09
 draft: true
 ---

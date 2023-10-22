@@ -2,11 +2,14 @@
 title: Home
 ---
 
-#### Who I am
+Um desenvolvedor de software com uma paixão por transformar idéias em código.
+Minha jornada na programação me levou a criar soluções inovadoras e a mergulhar
+profundamente me tecnologias de ponta. Estou sempre aberto a novas oportunidades
+emocionantes e colaborações. Se você deseja discutir um projeto ou apenas bater
+um papo sobre tecnologia, não hesite em entrar em contato.
 
-Programming since 2015, currently a backend developer. I am always interested in best
-practices when developing/testing software and lean product development. Professional
-certificated in Management on 2015 and also certificated in Computer Science for Web
-Programming. A certification offered by HarvardX, in collaboration with edX.
+##### O que posso fazer por você:
 
-[Have a look on my certification](https://credentials.edx.org/credentials/42820fef2eef4b389e1d3a4c2c7a91c2/)
+- Desenvolvimento de aplicações Web e Móveis
+- Integração de APIs e Serviços
+- Otimização de desempenho
